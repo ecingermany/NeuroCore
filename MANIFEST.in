@@ -1,0 +1,12 @@
+include README.md
+recursive-include src *.py *.json py.typed
+recursive-include tests *.py *.json
+include docs/provenance.json
+include docs/integration.zh-CN.md
+include docs/AI-MIGRATION-HANDOFF.zh-CN.md
+include docs/validation-2026-11-14.zh-CN.md
+include docs/delivery-2026-11-14.zh-CN.md
+include docs/monitor-reference.json
+include docs/private-validation-summary.json
+include constraints-reference.txt
+recursive-include examples *.py

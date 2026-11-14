@@ -1,0 +1,27 @@
+{
+  "report_pairs": 20,
+  "maximum_errors": {
+    "BRQ": 4.808446103510278e-05,
+    "SRQ": 4.689946928237987e-05,
+    "ATQ": 4.7682312924735015e-05,
+    "ACQ": 4.8057224745434723e-05,
+    "EQ": 4.577109861259032e-05,
+    "AntiStress": 4.905869745641667e-05,
+    "Synchrony": 4.987715493953715e-07,
+    "Symmetry": 4.9857708177114546e-05,
+    "CQ": 4.903579120707491e-05,
+    "BQ": 4.9615791354540306e-05,
+    "Rate": 4.784346001152073e-06
+  },
+  "extras_maximum_errors": {
+    "LogBand": 4.996207109142503e-06,
+    "Slope": 3.619592408465877e-06,
+    "AbsoluteStrength": 4.837097127285972e-06,
+    "RelativeStrength": 4.891206335067011e-06
+  },
+  "activity_label_matches": 20,
+  "emotion_label_matches": 20,
+  "known_training_stages_matched": 3,
+  "known_training_rewards_matched": 180,
+  "private_data_copied": false
+}

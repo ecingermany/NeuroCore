@@ -1,0 +1,30 @@
+{
+  "yyg_declared_baseline": "da014597054a01f95dc820210a663d85737aeb65",
+  "comparison": "git diff da01459 -- feature_analysis.py dynamic_txt.py eeg_report: no differences (2026-11-14)",
+  "extraction": "local source content identified by SHA-256; no source repository modified",
+  "sha256": {
+    "eeg_report/config.py": "46fa254421aa78fe88a0fcb031b1b1b1c5902a38b444802ebbd92ad2d60dd8bc",
+    "eeg_report/eq.py": "401143c21b141a5c5f7dcbfe855cbfaaf6d6056dbc8e9eeff578d44c368fa08f",
+    "eeg_report/loader.py": "c63c58424a2fdaf0da2a8870bfdd62155beef21e59ad035df11db3ecb9320b75",
+    "eeg_report/paf.py": "356d477f06ce8148fa5b8a33a3b936ac6dc74c5062c584712d826460bc58f930",
+    "eeg_report/preprocess.py": "c3605d3b2c11dee2583ca8667e2caa6383d7f3e3abe29ddd21af1c2b014b9d02",
+    "eeg_report/spectral.py": "2fc54394ab387471ddb368970745aa9fe87d4db1ed0fa90d47f1d5aaf08c819c",
+    "eeg_report/validation.py": "c4b5a0de56a11197f2a4dbf8ddc127df9f156c7b671803f3f3dcbd16deb9f34d",
+    "feature_analysis.py": "df0cd08c0769b7a4571999b400b39c920f7131f564508c358d42ab3faa85fcdf",
+    "dynamic_txt.py": "e428ad9d379228573f5ddc04e88fafeccc644241ef84c532c42f254936174ea2"
+  },
+  "monitor_reference": {
+    "profile": "monitorr-fa398d9a-n128-hann-reconstruction-v1",
+    "source": "NHS local working tree, existing mode5 extension present before extraction",
+    "compared_modes": [
+      1,
+      4,
+      2
+    ],
+    "frames": 183,
+    "sha256": {
+      "dynamic-core.js": "cd4e7f4702bb0db446dc2e0a607b12c15dc275f41ef01ebf1c65fef85add499b",
+      "dynamic-input.js": "deb73969c0c758bca2c84e5e456beffcdc767883dc0c1b3d905fe913d0027143"
+    }
+  }
+}

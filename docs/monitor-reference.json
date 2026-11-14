@@ -1,0 +1,14 @@
+{
+  "profile": "monitorr-fa398d9a-n128-hann-reconstruction-v1",
+  "source": "NHS local working tree, existing mode5 extension present before extraction",
+  "compared_modes": [
+    1,
+    4,
+    2
+  ],
+  "frames": 183,
+  "sha256": {
+    "dynamic-core.js": "cd4e7f4702bb0db446dc2e0a607b12c15dc275f41ef01ebf1c65fef85add499b",
+    "dynamic-input.js": "deb73969c0c758bca2c84e5e456beffcdc767883dc0c1b3d905fe913d0027143"
+  }
+}

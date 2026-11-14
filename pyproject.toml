@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurocore-eeg"
+version = "0.1.0"
+description = "Versioned EEG assessment, neurofeedback and spectrum visualization algorithms"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.20", "scipy>=1.7"]
+
+[project.optional-dependencies]
+viz = ["plotly>=5"]
+dev = ["pytest>=7", "build", "wheel"]
+
+[project.urls]
+Repository = "https://github.com/ecingermany/NeuroCore"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+neurocore = ["provenance.json", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

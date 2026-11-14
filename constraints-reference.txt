@@ -1,0 +1,4 @@
+# Numerical reference environment used for 0.1.0 regression, Python 3.9.
+numpy==2.0.2
+scipy==1.13.1
+plotly==7.1.0
