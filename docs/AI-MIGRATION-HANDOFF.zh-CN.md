@@ -19,6 +19,8 @@
 
 本机34项公开测试已通过。完整证据见 [验证记录](validation-2026-11-14.zh-CN.md)、[匿名真实资料回归摘要](private-validation-summary.json)、[源文件哈希](provenance.json) 和 [JS参考来源](monitor-reference.json)。私有原始数据不在仓库内，公开环境不能重跑不存在的个人材料。
 
+远端补充：算法发布及CI修正提交 `3f98506c4226fa9579e781448dbffe137c4a03ac` 已在GitHub Ubuntu22.04环境完成Python3.9、3.12两组公开测试和打包，均通过，见 [CI运行](https://github.com/ecingermany/NeuroCore/actions/runs/43576978346)。这不包括远端重跑私有原始资料。
+
 四份YYG金样由原实现生成，再与包比较，不是由待测包给自身生成期望值。容差为相对1e-9、绝对1e-10。EQ/PAF业务文案采用原实现的“无建议库回退”基准；保留原工具文案时，必须按第5节注入原建议库。
 
 ## 2. 安装与固定版本

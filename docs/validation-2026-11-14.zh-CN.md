@@ -36,6 +36,6 @@ tools/validate_private.py仅读取既有材料，输出docs/private-validation-s
 - BQtester实时3D路径尚未确认，不根据训练无窗强行推定。
 - MeditationEngine为静态恢复；其他游戏只有已恢复的纯算法/状态消费，不包含完整Windows媒体、资源、题目和输入界面。
 - MonitorR频谱是已验证指标重建口径，低频点与实际范围表达式的差异保留说明，不称物理标定。
-- `.whl`和源码包通过本机构建及独立环境安装检查后交付；CI配置已提供，远端CI尚未运行。
+- `.whl`和源码包通过本机构建及独立环境安装检查。源码发布后，GitHub Ubuntu22.04的Python3.9、3.12两组公开测试和构建均通过，见[CI运行](https://github.com/ecingermany/NeuroCore/actions/runs/43576978346)，对应提交3f98506c4226fa9579e781448dbffe137c4a03ac；远端没有私有数据，不包含私有回归。
 
 实际测试数量、构建/安装结果见本次交付说明；环境约束见constraints-reference.txt。
